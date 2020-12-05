@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ua">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,19 +13,19 @@
   </head>
   <body>
     <div class="toolbar">
-      <!-- Разметка переключателя темы -->
+      <!-- Розмітка переключателя теми -->
       <div class="theme-switch">
-        <svg class="theme-switch__icon" role="img" aria-label="Иконка солнца">
+        <svg class="theme-switch__icon" role="img" aria-label="Іконка сонця">
           <use href="./images/sprite.svg#sun"></use>
         </svg>
 
         <div class="theme-switch__control">
           <input
-            class="theme-switch__toggle"
+            class="theme-switch__toggle js-switch-input"
             type="checkbox"
             name="theme"
             id="theme-switch-toggle"
-            aria-label="Переключить между тёмной и светлой темой"
+            aria-label="Переключити між темною і світлою темою"
           />
           <label
             aria-hidden="true"
@@ -36,13 +36,13 @@
           <div aria-hidden="true" class="theme-switch__marker"></div>
         </div>
 
-        <svg class="theme-switch__icon" aria-label="Иконка луны">
+        <svg class="theme-switch__icon" aria-label="Іконка місяця">
           <use href="./images/sprite.svg#moon"></use>
         </svg>
       </div>
     </div>
 
-    <!-- В этот список рендери разметку меню -->
+    <!-- У цей список редерити розмітку меню -->
     <ul class="menu js-menu"></ul>
   </body>
 </html>
